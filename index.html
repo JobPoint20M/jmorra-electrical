@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>J. Morra Electrical Contractors Inc. | Licensed Electrical Contractor Serving New Jersey for 35+ Years</title>
+    <meta name="description" content="J. Morra Electrical Contractors Inc. is a licensed electrical contractor with 35+ years of experience in large-scale commercial, multi-family, and residential projects across New Jersey.">
+    <meta name="keywords" content="electrician NJ, electrical contractor New Jersey, commercial electrician, multi-family electrical, high-rise electrical contractor, new construction electrician, licensed electrician North Jersey">
+    <meta property="og:title" content="J. Morra Electrical Contractors Inc. | Licensed Electrical Contractor Serving New Jersey for 35+ Years">
+    <meta property="og:description" content="J. Morra Electrical Contractors Inc. is a licensed electrical contractor with 35+ years of experience in large-scale commercial, multi-family, and residential projects across New Jersey.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="jmorra-logo.jpg">
+    <meta property="og:locale" content="en_US">
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Electrician",
+        "name": "J. Morra Electrical Contractors Inc.",
+        "description": "Licensed electrical contractor with 35+ years of experience in large-scale commercial, multi-family, and residential projects across New Jersey.",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "480 Sylvan Ave",
+            "addressLocality": "Englewood Cliffs",
+            "addressRegion": "NJ",
+            "postalCode": "07632",
+            "addressCountry": "US"
+        },
+        "telephone": "(201) 655-1035",
+        "areaServed": {
+            "@type": "State",
+            "name": "New Jersey"
+        },
+        "serviceType": ["Commercial Electrical", "Residential Electrical", "Multi-Family Electrical", "High-Rise Electrical", "New Construction Wiring", "Panel & System Installations"]
+    }
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        *, *::before, *::after {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            background-color: #000000;
+            color: #ffffff;
+            font-family: 'Inter', Arial, Helvetica, sans-serif;
+            line-height: 1.5;
+            font-size: 15px;
+        }
+
+        /* TOP NAV BAR */
+        .topnav {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 12px 32px;
+            background: #000000;
+            border-bottom: 2px solid #F5C518;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .topnav .logo {
+            height: 100%;
+            max-height: 90px;
+            width: auto;
+            display: block;
+            border: none;
+            outline: none;
+            box-shadow: none;
+            background: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .topnav nav {
+            display: flex;
+            gap: 24px;
+            align-items: center;
+        }
+
+        .topnav nav a {
+            color: #c0c0c0;
+            text-decoration: none;
+            font-family: 'Anton', Impact, sans-serif;
+            font-size: 0.85rem;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            transition: color 0.2s;
+        }
+
+        .topnav nav a:hover {
+            color: #F5C518;
+        }
+
+        .topnav .nav-cta {
+            background: #F5C518;
+            color: #000;
+            padding: 6px 18px;
+            font-family: 'Anton', Impact, sans-serif;
+            font-size: 0.8rem;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            text-decoration: none;
+            transition: background 0.2s;
+        }
+
+        .topnav .nav-cta:hover {
+            background: #ddb215;
+        }
+
+        /* HERO */
+        .hero {
+            text-align: center;
+            padding: 40px 20px 36px;
+            background: #000;
+        }
+
+        h1 {
+            font-family: 'Anton', Impact, sans-serif;
+            font-size: clamp(1.6rem, 4vw, 2.5rem);
+            color: #F5C518;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 8px;
+        }
+
+        .hero-subtext {
+            font-size: 0.95rem;
+            color: #999;
+            margin-bottom: 20px;
+        }
+
+        .btn-quote {
+            display: inline-block;
+            background-color: #F5C518;
+            color: #000000;
+            font-family: 'Anton', Impact, sans-serif;
+            font-size: 1rem;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            text-decoration: none;
+            padding: 12px 40px;
+            border: none;
+            cursor: pointer;
+            transition: background-color 0.2s, transform 0.15s;
+        }
+
+        .btn-quote:hover {
+            background-color: #ddb215;
+            transform: translateY(-1px);
+        }
+
+        /* SECTIONS */
+        section {
+            padding: 36px 20px;
+            max-width: 960px;
+            margin: 0 auto;
+        }
+
+        h2 {
+            font-family: 'Anton', Impact, sans-serif;
+            font-size: clamp(1.3rem, 3vw, 1.75rem);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 16px;
+            color: #F5C518;
+            text-align: center;
+        }
+
+        .section-divider {
+            border: none;
+            border-top: 1px solid #1a1a1a;
+            max-width: 960px;
+            margin: 0 auto;
+        }
+
+        /* ABOUT */
+        .about p {
+            font-size: 0.95rem;
+            color: #b0b0b0;
+            line-height: 1.7;
+            max-width: 800px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        /* SERVICES */
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 12px;
+        }
+
+        .service-tile {
+            background: #0e0e0e;
+            border: 1px solid #1a1a1a;
+            border-left: 3px solid #F5C518;
+            padding: 18px 16px;
+            transition: transform 0.15s;
+        }
+
+        .service-tile:hover {
+            transform: translateY(-2px);
+        }
+
+        .service-tile h3 {
+            font-family: 'Anton', Impact, sans-serif;
+            font-size: 0.95rem;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            color: #ffffff;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .service-tile .icon {
+            color: #F5C518;
+            font-size: 1rem;
+            flex-shrink: 0;
+        }
+
+        /* WHY CHOOSE US */
+        .why-us-list {
+            list-style: none;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 0 32px;
+            max-width: 700px;
+            margin: 0 auto;
+        }
+
+        .why-us-list li {
+            font-size: 0.9rem;
+            color: #b0b0b0;
+            padding: 8px 0 8px 24px;
+            position: relative;
+            border-bottom: 1px solid #141414;
+        }
+
+        .why-us-list li::before {
+            content: "\26A1";
+            position: absolute;
+            left: 0;
+            color: #F5C518;
+            font-size: 0.9rem;
+        }
+
+        /* CONTACT */
+        .contact-form {
+            max-width: 480px;
+            margin: 0 auto;
+        }
+
+        .form-row {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 12px;
+        }
+
+        .form-group {
+            margin-bottom: 12px;
+        }
+
+        .form-group label {
+            display: block;
+            font-family: 'Anton', Impact, sans-serif;
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: #888;
+            margin-bottom: 4px;
+        }
+
+        .form-group input,
+        .form-group textarea {
+            width: 100%;
+            padding: 10px 12px;
+            background: #0e0e0e;
+            border: 1px solid #2a2a2a;
+            color: #fff;
+            font-family: 'Inter', Arial, sans-serif;
+            font-size: 0.9rem;
+            transition: border-color 0.2s;
+        }
+
+        .form-group input:focus,
+        .form-group textarea:focus {
+            outline: none;
+            border-color: #F5C518;
+        }
+
+        .form-group textarea {
+            height: 90px;
+            resize: vertical;
+        }
+
+        .form-group.full-width {
+            grid-column: 1 / -1;
+        }
+
+        .contact-info {
+            text-align: center;
+            margin-top: 20px;
+            color: #666;
+            font-size: 0.85rem;
+        }
+
+        .contact-info a {
+            color: #F5C518;
+            text-decoration: none;
+        }
+
+        /* FOOTER */
+        footer {
+            border-top: 2px solid #F5C518;
+            text-align: center;
+            padding: 20px 20px;
+            background: #0a0a0a;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 16px;
+            flex-wrap: wrap;
+        }
+
+        .footer-company {
+            font-family: 'Anton', Impact, sans-serif;
+            font-size: 0.85rem;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+        }
+
+        .footer-sep {
+            color: #333;
+        }
+
+        .footer-license {
+            color: #555;
+            font-size: 0.75rem;
+        }
+
+        .footer-tagline {
+            color: #F5C518;
+            font-family: 'Anton', Impact, sans-serif;
+            font-size: 0.75rem;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+        }
+
+        /* RESPONSIVE */
+        @media (max-width: 700px) {
+            .topnav {
+                padding: 10px 16px;
+            }
+
+            .topnav .logo {
+                max-height: 70px;
+            }
+
+            .topnav nav {
+                gap: 12px;
+            }
+
+            .topnav nav a {
+                font-size: 0.75rem;
+            }
+
+            .topnav .nav-cta {
+                padding: 5px 12px;
+                font-size: 0.7rem;
+            }
+
+            .hero {
+                padding: 28px 16px 24px;
+            }
+
+            section {
+                padding: 28px 16px;
+            }
+
+            .services-grid {
+                grid-template-columns: 1fr;
+                gap: 8px;
+            }
+
+            .why-us-list {
+                grid-template-columns: 1fr;
+            }
+
+            .form-row {
+                grid-template-columns: 1fr;
+            }
+
+            .btn-quote {
+                padding: 10px 28px;
+                font-size: 0.9rem;
+            }
+
+            footer {
+                flex-direction: column;
+                gap: 4px;
+                padding: 16px;
+            }
+
+            .footer-sep {
+                display: none;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- TOP NAV -->
+    <div class="topnav">
+        <img src="jmorra-logo.jpg" alt="J. Morra Electrical Contractors Inc. logo with lightning bolt accent" class="logo">
+        <nav>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#contact" class="nav-cta">Get a Quote</a>
+        </nav>
+    </div>
+
+    <!-- HERO -->
+    <header class="hero">
+        <h1>Decades of Work. Zero Shortcuts.</h1>
+        <p class="hero-subtext">Proudly Serving New Jersey and the Surrounding Area for Over 35 Years.</p>
+        <a href="#contact" class="btn-quote">Get a Quote</a>
+    </header>
+
+    <main>
+
+        <!-- ABOUT -->
+        <hr class="section-divider">
+        <section class="about" id="about">
+            <h2>About Us</h2>
+            <p>J. Morra Electrical Contractors Inc. is a licensed electrical contractor with over 35 years of experience, specializing in large-scale residential and commercial electrical projects. We focus on high-volume work including multi-family properties, high-rise developments, and commercial buildings. With decades of industry expertise, we handle new construction, major renovations, and full electrical system installations with precision and reliability. Our team works closely with developers, general contractors, and property managers to deliver projects on time, up to code, and built to last.</p>
+        </section>
+
+        <!-- SERVICES -->
+        <hr class="section-divider">
+        <section class="services" id="services">
+            <h2>Our Services</h2>
+            <div class="services-grid">
+                <div class="service-tile">
+                    <h3><span class="icon">&#9889;</span> Commercial Electrical</h3>
+                </div>
+                <div class="service-tile">
+                    <h3><span class="icon">&#9889;</span> Residential Electrical</h3>
+                </div>
+                <div class="service-tile">
+                    <h3><span class="icon">&#9889;</span> Multi-Family &amp; High-Rise</h3>
+                </div>
+                <div class="service-tile">
+                    <h3><span class="icon">&#9889;</span> New Construction Wiring</h3>
+                </div>
+                <div class="service-tile">
+                    <h3><span class="icon">&#9889;</span> Major Renovations</h3>
+                </div>
+                <div class="service-tile">
+                    <h3><span class="icon">&#9889;</span> Panel &amp; System Installations</h3>
+                </div>
+            </div>
+        </section>
+
+        <!-- WHY CHOOSE US -->
+        <hr class="section-divider">
+        <section class="why-us" id="why-us">
+            <h2>Why Choose Us</h2>
+            <ul class="why-us-list">
+                <li>35+ years experience</li>
+                <li>Licensed &amp; insured in New Jersey</li>
+                <li>Large-scale project specialists</li>
+                <li>Trusted by developers and general contractors</li>
+                <li>Delivered on time and up to code</li>
+                <li>No shortcuts &mdash; ever</li>
+            </ul>
+        </section>
+
+        <!-- CONTACT / QUOTE FORM -->
+        <hr class="section-divider">
+        <section class="contact" id="contact">
+            <h2>Request a Quote</h2>
+            <form class="contact-form" action="#" method="POST">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" placeholder="Your full name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone</label>
+                        <input type="tel" id="phone" name="phone" placeholder="(973) 555-0100">
+                    </div>
+                    <div class="form-group full-width">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="you@example.com" required>
+                    </div>
+                    <div class="form-group full-width">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" placeholder="Tell us about your project..."></textarea>
+                    </div>
+                </div>
+                <button type="submit" class="btn-quote" style="width:100%; border:none;">Send Message</button>
+            </form>
+            <div class="contact-info">
+                <p><strong>John Morra</strong> &mdash; <a href="tel:+12016551035">(201) 655-1035</a> &nbsp;|&nbsp; <a href="mailto:John@jmorraelectrical.com">John@jmorraelectrical.com</a></p>
+                <p><strong>Joseph Morra</strong> &mdash; <a href="tel:+12014217768">(201) 421-7768</a> &nbsp;|&nbsp; <a href="mailto:Joseph@jmorraelectrical.com">Joseph@jmorraelectrical.com</a></p>
+                <p style="margin-top:8px;">480 Sylvan Ave, Englewood Cliffs, NJ 07632</p>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <span class="footer-company">J. Morra Electrical Contractors Inc.</span>
+        <span class="footer-sep">|</span>
+        <span class="footer-license">NJ License #10167A</span>
+        <span class="footer-sep">|</span>
+        <span class="footer-tagline">Decades of Work. Zero Shortcuts.</span>
+    </footer>
+
+</body>
+</html>
